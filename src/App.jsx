@@ -71,7 +71,7 @@ const App = () => {
   };
 
   const [code, setCode] = useState("");
-  const ai = new GoogleGenAI({ apiKey: import.meta.env.GOOGLE_API_KEY });
+  const ai = new GoogleGenAI({ apiKey: "AIzaSyD1TfRqGRWqLTte9VENRyIfVR6rr95NNpE" });
   const [loading, setLoading] = useState(false);
   const [response, setResponse] = useState("");
 
