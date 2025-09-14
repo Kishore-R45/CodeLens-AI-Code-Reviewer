@@ -152,12 +152,17 @@ Code: ${code}
             </button>
           </div>
 
-          <Editor 
-            height="100%" 
-            theme='vs-dark' 
-            language={selectedOption.value} 
-            value={code} 
-            onChange={(e) => { setCode(e) }} 
+          <Editor
+            height="100%"
+            theme="vs-dark"
+            language={selectedOption.value}
+            value={code}
+            onChange={(e) => setCode(e)}
+            options={{
+              fontSize: 14,
+              minimap: { enabled: false },
+              placeholder: "# write or paste your code here",
+            }}
           />
         </div>
 
