@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className="icons flex items-center gap-[20px]">
   <a 
-    href="https://your-portfolio-link.com" 
+    href="https://github.com/Kishore-R45/CodeLens-AI-Code-Reviewer.git" 
     target="_blank" 
     rel="noopener noreferrer"
     className="text-white font-medium hover:underline transition-all"
