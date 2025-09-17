@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className="icons flex items-center gap-[20px]">
   <a 
-    href="https://kishore-r45.github.io/Kishore-Portfolio-07/" 
+    href="https://kishore-portfolio-45.netlify.app/" 
     target="_blank" 
     rel="noopener noreferrer"
     className="text-white font-medium hover:underline transition-all"
